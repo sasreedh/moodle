@@ -63,7 +63,7 @@ $CFG->dboptions = array(
                                 // support advanced options on connection.
                                 // If you set those in the database then
                                 // the advanced settings will not be sent.
-    'dbcollation' => 'utf8mb4_unicode_ci', // MySQL has partial and full UTF-8
+    'dbcollation' => 'utf8_general_ci', // MySQL has partial and full UTF-8
                                 // support. If you wish to use partial UTF-8
                                 // (three bytes) then set this option to
                                 // 'utf8_unicode_ci', otherwise this option
